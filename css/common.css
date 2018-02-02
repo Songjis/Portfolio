@@ -1,5 +1,5 @@
 html, body, h1, h2, h3, h4, h5, h6 { padding: 0; margin: 0; }
-body { font-family: "Lucida Sans", Verdana, sans-serif; background:linear-gradient(rgba(255,204,204,.60),rgba(255,153,153,.15)),url(../images/bg1.jpg);background-attachment:fixed;background-position:center;background-size:cover; }
+body { font-family: "Lucida Sans", Verdana, sans-serif; background:linear-gradient(rgba(255,204,204,.30),rgba(255,153,153,.15)),url(../images/sq1.jpg);background-attachment:fixed;background-position:center;background-size:cover; }
 ul { list-style: none; }
 nav, section, footer { padding:30px 0; }
 a { text-decoration: none; }
@@ -11,16 +11,16 @@ button { cursor: pointer; }
 	height: 40px;
 	font-size: 1.5rem;
 	outline: none;
-	border: none;
+    border: 1px solid navy;
 	border-radius: 10px;
 	margin: 0 10px;
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color: azure;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .btn:hover, .active { 
-	color: red; 
-	background-color: #f2dede; 
+	color: #0c0876; 
+	background-color: #d5f1fc; 
 	box-shadow: 0 4px 8px 0 rgba(229, 242, 222, 0.4), 0 6px 20px 0 rgba(229, 242, 222, 0.39); 
 }
 
@@ -58,8 +58,8 @@ nav .container {
 	height: 50px;
 	padding: 24px 15px;
 	margin: 0 auto;
-	background-color: rgba(051,051,051,0.7);
-	color: rgba(255, 255, 255, 0.3);
+	/*background-color: rgba(051,051,051,0.2);*/
+	color: rgba(255, 255, 255, 0.1);
 	position: relative;
 }
 nav .container .navbar-site {
@@ -95,12 +95,13 @@ nav .container ul li {
 	padding: 0 20px;
 }
 nav .container ul li a {
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight: 800;
 	color: rgba(255, 255, 255, 0.9);
+    text-shadow: 2px 2px 10px #89e4ff;
 }
 nav .container ul li a:hover {
-	color: #e6a756;
+	color: rgba(0, 0, 0, 1);
 }
 
 section.contents {
